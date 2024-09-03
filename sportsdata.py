@@ -8,7 +8,7 @@ import matplotlib.dates as mdates
 from datetime import datetime
 
 # import cycling data
-cycling_stats = pd.read_csv('/Users/victordecolvenaer/Documents/python_scripts/personal sport data/Activities cycling.csv')
+cycling_stats = pd.read_csv('/Users/victordecolvenaer/Documents/python_scripts/personal_sport_data/Activities cycling.csv')
 
 #Create PDF file with output plots
 pdf_filename = 'output_plots.pdf'
